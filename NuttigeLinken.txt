@@ -1,0 +1,24 @@
+Useful information:
+
+API Onderwijsaanbod (opleidingen)
+https://admin.kuleuven.be/icts/services/dataservices/api/program-opleiding
+
+
+API Persooninformatie
+https://admin.kuleuven.be/icts/services/dataservices/api/person
+
+
+API Individueel uurrooster
+https://admin.kuleuven.be/icts/services/dataservices/api/uurrooster
+
+DATASET Onderwijsaanbod
+https://admin.kuleuven.be/icts/services/dataservices/onderwijsaanbod/program.html
+
+
+
+Alegmene info over API
+https://admin.kuleuven.be/icts/services/dataservices
+
+
+Onderwijsaanbod Toegepast Informatice
+http://onderwijsaanbod.odisee.be/opleidingen/n/SC_51858212.htm
