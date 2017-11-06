@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.getJSON demo</title>
+  <style>
+  img {
+    height: 100px;
+    float: left;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<div id="images"></div>
+<p id="test"> </p>
+ 
+<script>
+
+    var data = { "query": { "match_all": {}}};
+$.ajax({
+    url: "https://dslab.kuleuven.be/v2/program2016/_search",
+    type: 'post',
+    cache: false,
+    dataType: 'json',
+    contentType : "application/json",
+    data: data,
+    success: function (result) {
+        //var list = responseData.data;
+        console.log(result)
+            //alert(result);
+    },
+    error: function () {
+        console.log("werkt niet");
+    }
+});
+</script>
+ 
+</body>
+</html>
