@@ -1,0 +1,87 @@
+.backgroundimage {
+    
+    background: url(../img/kuleuven.jpg);
+    background-size: cover;
+   
+}
+
+.login-screen-title {
+    color: white;
+}
+
+.list-block {
+    background-color: rgba(240, 248, 255, 0.16);
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.item-link {
+    text-align: center;
+    background-color: rgba(126, 87, 48, 0.85)/**/
+    ;
+}
+
+.item-link:hover{
+    background-color: #00a7ff;
+    color: aliceblue;
+    
+}
+
+.kul {
+    position: relative;
+    top: 110px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#firstpage {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: rgba(0, 64, 122, 0.62);
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.open-login-screen {
+    position: relative;
+    top: 150px;
+    width: auto;
+    font-size: 17px;
+    color: white;
+}
+
+
+.list-block-label {
+    color: #0088ff;
+    font-size: 15px;
+    background-color: rgba(0, 64, 122, 0.79);
+    position: relative;
+    bottom: 10px;
+    height: 120px;
+}
+
+.list-block-label p {
+    color: aliceblue;
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+}
+
+.list-block-label p a {}
+
+.size-50 {
+    font-size: 50px;
+    padding: 40px;
+    
+    color: white;
+    background-color: rgba(126, 87, 48, 0.85);
+    border-radius: 25px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+
+
+#loginlogo {
+    text-align: center;
+}
+
+
