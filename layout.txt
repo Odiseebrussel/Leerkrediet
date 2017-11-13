@@ -1,0 +1,22 @@
+SIDE PANEL
+
+
+- pesoonlijke informatie
+	--> naam
+	--> familienaam
+	--> mail
+	--> r-nummer
+	--> ...
+- studievooruitgang
+- vakken / studiepuntenen
+	--> checkbox
+	--> aantal opgenomen studiepuntenen
+	--> fase 
+	--> 
+	
+	
+smart select
+--> fase
+	--> semester /jaarvak 
+		--> vakken (studiepuntenen)
+--> opgenomen vakken
