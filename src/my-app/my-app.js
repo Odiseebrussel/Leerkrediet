@@ -1,7 +1,10 @@
 var myApp = new Framework7();
 var $$ = Dom7;
  
-var mainView = myApp.addView('.view-main');
+var mainView = myApp.addView('.view-main',{
+    
+    domCache: true
+});
  
 myApp.onPageInit('login-screen', function (page) {
   var pageContainer = $$(page.container);
