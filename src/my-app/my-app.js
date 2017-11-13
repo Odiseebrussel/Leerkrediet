@@ -16,10 +16,10 @@ myApp.onPageInit('login-screen', function (page) {
     
   });
 
-    pageContainer.find('.open-indicator').on('click',function(){
-        myApp.showPreloader();
-      setTimeout(function(){
-          myApp.hidePreloader();;
-      },2000);
-    });
+//    pageContainer.find('.open-indicator').on('click',function(){
+//        myApp.showPreloader();
+//      setTimeout(function(){
+//          myApp.hidePreloader();;
+//      },2000);
+//    });
 });     
