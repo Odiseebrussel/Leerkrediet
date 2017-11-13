@@ -24,60 +24,32 @@
 <body>
     <!-- Views -->
     <div class="views">
-        <!-- Your main view, should have "view-main" class -->
-        <div class="view view-main">
-            <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
-            <div class="pages navbar-fixed toolbar-fixed">
-                <!-- Page, "data-page" contains page name -->
-                <div data-page="index" class="page backgroundimage">
-                    <div class="page-content">
-                        <div class="content-block" id="firstpage"><img class="kul" src="img/logo_associatie_kuleuven.gif">
-                            <p><a href="#" class="open-login-screen">Login</a></p>
-                        </div>
-                    </div>
-                    <div class="login-screen">
-                        <div class="view">
-                            <div class="page">
-                                <div class="page-content login-screen-content backgroundimage">
-                                    <div class="login-screen-title">Login</div>
-                                    <form>
-                                        <div class="list-block">
-                                            <ul>
-                                                <li class="item-content">
-                                                    <div class="item-media"><i class="icon f7-icons">person</i></div>
-                                                    <div class="item-inner">
-                                                        <div class="item-title label">Username</div>
-                                                        <div class="item-input">
-                                                            <input type="text" name="username" placeholder="Your email address or R-number"> </div>
-                                                    </div>
-                                                </li>
-                                                <li class="item-content">
-                                                    <div class="item-media"><i class="icon f7-icons">locked</i></div>
-                                                    <div class="item-inner">
-                                                        <div class="item-title label">Password</div>
-                                                        <div class="item-input">
-                                                            <input type="password" name="password" placeholder="Your password"> </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="list-block">
-                                            <ul>
-                                                <li><a href="#" class="item-link list-button" id="btn1">Sign In</a></li>
-                                            </ul>
-                                            <div class="list-block-label">
-                                                <p><a href="#" class="close-login-screen">Close Login Screen</a></p>
-                                                <p>If you don't have a schoolaccount or problem with your schoolaccount please contact <a href="https://www.kuleuven.be/studentenadministratie">student administration</a>.</p>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- View -->
+      <div class="view view-main">
+        <!-- Pages -->
+        <div class="pages">
+          <!-- Home page -->
+          <div class="page" data-page="index">
+            <div class="page-content">
+              <p>Home page</p>
             </div>
+          </div>
+ 
+          <!-- About page -->
+          <div class="page cached" data-page="about">
+            <div class="page-content">
+              <p>About page</p>
+            </div>
+          </div>
+ 
+          <!-- Services page -->
+          <div class="page cached" data-page="services">
+            <div class="page-content">
+              <p>Services page</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="src/js/framework7/framework7.min.js"></script>

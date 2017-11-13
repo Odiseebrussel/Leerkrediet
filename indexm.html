@@ -25,13 +25,54 @@
         <div class="view view-main">
             <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
             <div class="pages navbar-fixed toolbar-fixed">
-                <div data-page="home" class="page backgroundimage navbar-fixed">
-                     <div class="page-content">
-                        <div class="content-block" id="firstpage"><img class="kul" src="img/logo_associatie_kuleuven.gif">
-                            <p><a href="login-screen-page.html" class="open-login-screen">Login</a></p>
+                <!-- login page -->
+                    <div class="page" data-page="login-screen">
+                        <div class="page-content backgroundimage login-screen-content">
+                            <div class="login-screen-title">Login</div>
+                            <div class="item-media" id="loginlogo"><i class="icon f7-icons size-50">person</i></div>
+                            <form>
+                                <div class="list-block">
+                                    <ul>
+                                        <li class="item-content">
+                                            <div class="item-media"><i class="icon f7-icons">person</i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Username</div>
+                                                <div class="item-input">
+                                                    <input type="text" name="username" placeholder="Your R-number"> </div>
+                                            </div>
+                                        </li>
+                                        <li class="item-content">
+                                            <div class="item-media"><i class="icon f7-icons">locked</i></div>
+                                            <div class="item-inner">
+                                                <div class="item-title label">Password</div>
+                                                <div class="item-input">
+                                                    <input type="password" name="password" placeholder="Your password"> </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="list-block signin">
+                                    <ul>
+                                        <li><a href="#loadingpage" class="item-link list-button open-indicator color-white">Sign In</a></li>
+                                    </ul>
+                                    <div class="list-block-label">
+                                        <p><a href="indexm.html" class="close-login-screen">Close Login Screen</a></p>
+                                        <p>If you don't have a schoolaccount or problem with your schoolaccount please contact <a href="https://www.kuleuven.be/studentenadministratie" class="close-login-screen">student administration</a>.</p>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                </div>
+                    <!-- loading page -->
+                    <div class="page cached"  data-page="loadingpage">
+                        <div class="page-content ">
+                            
+                            <div class="item-media" id="loginlogo"><i class="icon f7-icons size-50 logo">person</i></div>
+                            <div class="login-screen-title">Welcome Tanguy Ortegat </div>
+                        </div>
+                    </div>
+                
+                
             </div>
         </div>
     </div>
