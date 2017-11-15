@@ -1,176 +1,203 @@
 {
-    "Bedrijfskunde": [
-        {
-            "Toegepaste Informatica Bachelor": [
-                {
-                    "Duties": [
-                        {
-                            "fase 1": [
-                                {
-                                    "COURSE_ID": "HBI65B"
-                                    , "COURSE": "Application development 1"
-                                    , "CREDITS": 4
-                                    , "SEMESTER": "Eerste semester"
-                                , }
-                        , {
-                                    "COURSE_ID": "HBI63B"
-                                    , "COURSE": "Database development 1"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "HBI78B"
-                                    , "COURSE": "Software engineering 2"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "HBI66B"
-                                    , "COURSE": "Application development 2"
-                                    , "CREDITS": 4
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "HBI64B"
-                                    , "COURSE": "Database development 2"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "HBI18B"
-                                    , "COURSE": "Mobile en internet 1"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "HBI20B"
-                                    , "COURSE": "System Management 1"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "HBI22B"
-                                    , "COURSE": "Network Management 1"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "HBI19B"
-                                    , "COURSE": "Mobile en internet 2"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
-                                , }, {
-                                    "COURSE_ID": "HBI21B"
-                                    , "COURSE": "System Management 2"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "HBI23B"
-                                    , "COURSE": "Network Management 2"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
-                        }
-
-                        ]
-                }, {
-                            "fase 2": [
-                                {
-                                    "COURSE_ID": "HBI25B"
-                                    "COURSE": "ICT Organisation 3"
-                                    , "CREDITS": 4
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "HBI69B"
-                                    , "COURSE": "Information management 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "HBI69B"
-                                    , "COURSE": "Information management 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Eerste semester"
-                        }, {
-                                    "COURSE_ID": "OH4100"
-                                    , "COURSE": "Communicatietraining 3"
-                                    , "CREDITS": 6 "SEMESTER": "Beide semesters"
-                        }, {
-                                    "COURSE_ID": "HBI02C"
-                                    , "COURSE": "ICT Organisation 4"
-                                    , "CREDITS": 4
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "HBI70B"
-                                    , "COURSE": "Information management 4"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "HBI68B"
-                                    , "COURSE": "Communicatietraining 4"
-                                    , "CREDITS": 4
-                                    , "SEMESTER": "Tweede semester"
-                        }, {
-                                    "COURSE_ID": "OH3100"
-                                    , "COURSE": "Software Engineering 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI73B"
-                                    , "COURSE": "Application development 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI71B"
-                                    , "COURSE": "Database development 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI34B"
-                                    , "COURSE": "Mobile en internet 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI36B"
-                                    , "COURSE": "System Management 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI38B"
-                                    , "COURSE": "Network Management 3"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
+    "Bedrijfskunde": {
+        "Toegepaste Informatica Bachelor": [
+            {
+                "Duties": [
+                    {
+                        "fase 1": [
+                            {
+                                "COURSE_ID": "HBI65B"
+                                , "COURSE": "Application development 1"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Eerste semester"
+                             }, 
+                            {
+                                "COURSE_ID": "HBI63B"
+                                , "COURSE": "Database development 1"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        }, 
+                            {
+                                "COURSE_ID": "HBI78B"
+                                , "COURSE": "Software engineering 2"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
                         },
+                            {
+                                "COURSE_ID": "HBI66B"
+                                , "COURSE": "Application development 2"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Tweede semester"
+                        }, 
+                            {
+                                "COURSE_ID": "HBI64B"
+                                , "COURSE": "Database development 2"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
+                        },
+                            {
+                                "COURSE_ID": "HBI18B"
+                                , "COURSE": "Mobile en internet 1"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        }, 
+                            {
+                                "COURSE_ID": "HBI20B"
+                                , "COURSE": "System Management 1"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        },
+                            {
+                                "COURSE_ID": "HBI22B"
+                                , "COURSE": "Network Management 1"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        }, 
+                            {
+                                "COURSE_ID": "HBI19B"
+                                , "COURSE": "Mobile en internet 2"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
+                             }, 
+                            {
+                                "COURSE_ID": "HBI21B"
+                                , "COURSE": "System Management 2"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
+                        },
+                            {
+                                "COURSE_ID": "HBI23B"
+                                , "COURSE": "Network Management 2"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
+                        }
 
                         ]
-                }, {
-                            "fase 3": [
-                                {
-                                    "COURSE_ID": "HBI12C"
-                                    , "COURSE": "ICT Organisation 5: Creative Entrepreneurship"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI04C"
-                                    , "COURSE": "Information Management 5 - Big Data"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Beide semester"
-                        }, {
-                                    "COURSE_ID": "HBI07C"
-                                    , "COURSE": "Business Ethics"
-                                    , "CREDITS": 3
-                                    , "SEMESTER": "Tweede semester"
+                    }
+                    ,{
+                        "fase 2": [
+                            {
+                                "COURSE_ID": "HBI25B",
+                                "COURSE": "ICT Organisation 3"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Eerste semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI69B"
+                                , "COURSE": "Information management 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI69B"
+                                , "COURSE": "Information management 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        }
+                            ,{
+                                "COURSE_ID": "OH4100"
+                                , "COURSE": "Communicatietraining 3"
+                                , "CREDITS": 6
+                                , "SEMESTER": "Beide semesters"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI02C"
+                                , "COURSE": "ICT Organisation 4"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Tweede semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI70B"
+                                , "COURSE": "Information management 4"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI68B"
+                                , "COURSE": "Communicatietraining 4"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Tweede semester"
+                        }
+                            ,{
+                                "COURSE_ID": "OH3100"
+                                , "COURSE": "Software Engineering 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI73B"
+                                , "COURSE": "Application development 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI71B"
+                                , "COURSE": "Database development 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI34B"
+                                , "COURSE": "Mobile en internet 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI36B"
+                                , "COURSE": "System Management 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI38B"
+                                , "COURSE": "Network Management 3"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+
+                        ]
+                    }
+                    ,{
+                        "fase 3": [
+                            {
+                                "COURSE_ID": "HBI12C"
+                                , "COURSE": "ICT Organisation 5: Creative Entrepreneurship"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI04C"
+                                , "COURSE": "Information Management 5 - Big Data"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI07C"
+                                , "COURSE": "Business Ethics"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
                         }
                         ]
-                },
+                }
 
 
-            ]
-        }, {
-                    "Electives modules": [
-                        {}
-            ]
-        }, {
-                    "Electives": [
-                        {}
-            ]
-        }, {
-                    "Options": [
-                        {}
             ]
         }
+            ,{
+                "Electives modules": [
+                    {}
+                ]
+            }
+            ,{
+                "Electives": [
+                    {}
+                ]
+            }
+            ,{
+                "Options": [
+                    {}
+                ]
+            }
     ]
-        }
-]
+    }
 }
