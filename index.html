@@ -68,9 +68,78 @@
                 <div class="page cached" data-page="loadingpage">
                     <div class="page-content loading">
                         <div class="item-media" id="loginlogo"><i class="icon f7-icons size-50 logo">person</i></div>
-                        <div class="login-screen-title">Welcome Tanguy Ortegat </div>
+                        <div class="login-screen-title"> </div>
                     
                         <div id="spinLoader"> <img src="img/Spin%20(2).gif" alt="loader" id="spin"> </div>
+                    </div>
+                </div>
+                <!-- loading vakken -->
+                <div class="page cached" data-page="Vakken">
+                    <div class="navbar ">
+                        <div class="navbar-inner">
+                            <div class="center">Student life</div>
+                            <div class="right">
+                                <a href="#" class="link"> <i class="icon icon-bars"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="toolbar toolbar-bottom">
+                        <div class="toolbar-inner">
+                            <a href="indexm.html" class="back"> <i class="icon icon-back"></i> </a>
+                        </div>
+                    </div>
+                    <!-- Search Bar -->
+                    <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
+                        <div class="searchbar-input">
+                            <input type="search" placeholder="Search">
+                            <a href="#" class="searchbar-clear"></a>
+                        </div><a href="#" class="searchbar-cancel">Cancel</a> </form>
+                    <!-- Search Bar overlay -->
+                    <div class="searchbar-overlay"></div>
+                    <div class="page-content">
+                        <!-- This block will be displayed if nothing found -->
+                        <div class="content-block searchbar-not-found">
+                            <div class="content-block-inner">Nothing found</div>
+                        </div>
+                        <!-- This block will be displayed if anything found, and this list block is used a searbar target -->
+                        <div class="list-block list-block-search searchbar-found">
+                            <ul>
+                                <li>
+                                    <a href="#" class="item-link smart-select">
+                                        <!-- "multiple" attribute for multiple select-->
+                                        <select name="car" multiple>
+                                            <!-- options grouped within "optgroup" tag-->
+                                            <optgroup label="Japanese">
+                                                <option value="honda" selected>Honda</option>
+                                                <option value="lexus">Lexus</option>
+                                                <option value="mazda">Mazda</option>
+                                                <option value="nissan">Nissan</option>
+                                                <option value="toyota">Toyota</option>
+                                            </optgroup>
+                                            <optgroup label="German">
+                                                <option value="audi" selected>Audi</option>
+                                                <option value="bmw">BMW</option>
+                                                <option value="mercedes">Mercedes</option>
+                                                <option value="vw">Volkswagen</option>
+                                                <option value="volvo">Volvo</option>
+                                            </optgroup>
+                                            <optgroup label="American">
+                                                <option value="cadillac">Cadillac</option>
+                                                <option value="chrysler">Chrysler</option>
+                                                <option value="dodge">Dodge</option>
+                                                <option value="ford" selected>Ford</option>
+                                            </optgroup>
+                                        </select>
+                                        <div class="item-content">
+                                            <div class="item-inner">
+                                                <div class="item-title">Car</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="write"></div>
                     </div>
                 </div>
             </div>

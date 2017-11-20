@@ -2,7 +2,7 @@
     "Bedrijfskunde": {
         "ToegepasteInformatica": 
             {
-                "Duties": 
+                "Duties": [
                     {
                         "fase 1": [
                             {
@@ -73,8 +73,8 @@
                         }
 
                         ]
-                    
-                    , 
+                    }
+                    , {
                         "fase 2": [
                             {
                                 "COURSE_ID": "HBI25B"
@@ -156,8 +156,8 @@
                         }
 
                         ]
-                    
-                    , 
+                    }
+                    , {
                         "fase 3": [
                             {
                                 "COURSE_ID": "HBI12C"
@@ -181,12 +181,12 @@
                 }
 
 
-            
+            ]
         
             , 
-                "ElectivesModules": 
+                "ElectivesModules": [
                     {
-                        "Option A: Design and Build Software": 
+                        "Option A: Design and Build Software": [
                             {
                                 "fase 2": [{
                                     "COURSE_ID": "OH3101"
@@ -204,7 +204,7 @@
                                     , "CREDITS": 6
                                     , "SEMESTER": "Tweede semester"
                         }]
-                            , 
+                            }, {
                                 "fase 3": [
                                     {
                                         "COURSE_ID": "HBI84B"
@@ -227,10 +227,10 @@
                                         , "CREDITS": 9
                                         , "SEMESTER": "Eerste semester"
                         }]
-                        }
-                    
-                , 
-                    "Option B : Manage Internet and Cloud": 
+                        }]
+                    }
+                , {
+                    "Option B : Manage Internet and Cloud": [
                         {
                             "fase 2": [
                                 {
@@ -249,7 +249,7 @@
                                     , "CREDITS": 6
                                     , "SEMESTER": "Tweede semester"
                         }]
-                        ,
+                        },{ 
                             "fase 3": [{
                                 "COURSE_ID": "OH3108"
                                 , "COURSE": "Mobile & Internet 5: Smart App"
@@ -273,11 +273,11 @@
                         }
                                 ]
                                 
-                }
-        }
+                }]
+        }]
     
 , 
-    "Electives": 
+    "Electives": [
         {
             "fase 3" : [{
                                 "COURSE_ID": "HBI33A"
@@ -321,9 +321,9 @@
                                 , "SEMESTER": "Beide semester"
                         }]
         }
-                
+                ]
 , 
-    "Options": 
+    "Options": [
         {
             "Option 1A : Intership mobility in Flanders" : {
                                 "COURSE_ID": "HBI89B"
@@ -331,14 +331,14 @@
                                 , "CREDITS": 24
                                 , "SEMESTER": "Tweede semester"
                         }
-        ,
+        },{
             "Option 1B : Intership mobility in Europe": {
                                 "COURSE_ID": "HBI90B"
                                 , "COURSE": "Stagemobiliteit in Europa"
                                 , "CREDITS": 24
                                 , "SEMESTER": "Tweede semester"
                         }
-        ,
+        },{
             "Option 2 : Intership mobility out of Europe" : [{
                                 "COURSE_ID": "HBI91B"
                                 , "COURSE": "Stagemobiliteit buiten Europa"
@@ -350,14 +350,14 @@
                                 , "CREDITS": 3
                                 , "SEMESTER": "Beide semester"
                         }]
-        ,
+        },{
             "Option 3 : Intership mobility in or out Europe" : {
                                 "COURSE_ID": "HBI92B"
                                 , "COURSE": "Studiemobiliteit in of buiten Europa"
                                 , "CREDITS": 3
                                 , "SEMESTER": "Beide semester"
                         }
-        ,
+        },{
             "Option 5 : Intership mobility in Europe : SHORT" : [{
                                 "COURSE_ID": "OBI05A"
                                 , "COURSE": "Werkplekleren: ICT Partner Training"
@@ -369,7 +369,7 @@
                                 , "CREDITS": 12
                                 , "SEMESTER": "Tweede semester"
                         }]
-        ,
+        },{
             "Option 1A : Intercommunitary mobility" : {
                                 "COURSE_ID": "OBI07A"
                                 , "COURSE": "Intercommunautaire stagemobiliteit"
@@ -377,7 +377,7 @@
                                 , "SEMESTER": "Tweede semester"
                         }
         }
-                
+                ]
 }
 }
 }
