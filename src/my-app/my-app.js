@@ -1,5 +1,6 @@
 var myApp = new Framework7();
 var $$ = Dom7;
+var user = null;
 var mainView = myApp.addView('.view-main', {
     domCache: true
     , template7Pages: true
@@ -9,7 +10,10 @@ $$('.btn').on('click', function () {
     var username = $$('input[name="username"]').val();
     var password = $$('input[name="password"]').val();
     var zin = "Welcome Berton Lutina Mulamba";
-    if (username === "test" && password === "test") {
+    if (username === "" && password === "") {
+        user ={
+            username : username
+        }
         mainView.router.load({
             pageName: "loadingpage"
         });
@@ -50,12 +54,19 @@ $$('.btn').on('click', function () {
         alert("Username and password don't match. Try it again");
     }
 });
-myApp.onPageInit('Vakken', function (page) {
+myApp.onPageInit('login-screen', function (page) {
+    if(user !== null){
+        mainView.router.load({
+            pageName: "Vakken"
+        });
+    }
+    /*
     $$('.back').on('click', function () {
         page.view.router.loadPage({
             pageName: 'login-screen'
         });
     });
+    */
 });
 /*
 
