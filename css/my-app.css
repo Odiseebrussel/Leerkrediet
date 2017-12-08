@@ -97,7 +97,7 @@
 }
 
 .loading {
-    background-color: rgb(0, 0, 0);
+    background-color: #101010;
 }
 
 #spinLoader {
@@ -130,7 +130,7 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 .circle {
-    margin: 40px -2px 60px 20px;
+    margin: 10px 10px 10px 10px;
     
 }
 
@@ -141,8 +141,85 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-.invoer {
-   background-color: rgba(255, 255, 255, 0.12); 
+#invoer {
+   background-color: rgba(255, 255, 255); 
     text-align: center;
     padding: 7px
+}
+
+.D:hover{
+    background-color: #ff9500;
+    color: #222426;
+    font-weight: bold;
+    cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+    box-shadow: 0 8px 6px -6px black;
+    
+}
+.Em:hover{
+    background-color: #4cd964;
+    color: #222426;
+    font-weight: bold;
+    cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+    box-shadow: 0 8px 6px -6px black;
+    
+}
+.E:hover{
+    background-color: #ff3b30;
+    color: #222426;
+    font-weight: bold;
+    cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+    box-shadow: 0 8px 6px -6px black;
+}
+.O:hover{
+    background-color: #ff2d55;
+    color: #222426;
+    font-weight: bold;
+    cursor: pointer;
+  -webkit-transition: background-color 0.4s ease-out;
+  -moz-transition: background-color 0.4s ease-out;
+  -o-transition: background-color 0.4s ease-out;
+  transition: background-color 0.4s ease-out;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+
+
+.studiePunten {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.studiePunten  h1 span{
+    color: #4cd964;
+}
+
+.studiePunten  h1{
+    padding-top: 20px;
+}
+
+
+
+.behaaldStudiepunt {
+    color: dimgrey;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    background-color: #212121;
+    color: white;
 }
