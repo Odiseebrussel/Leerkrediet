@@ -11,9 +11,9 @@
     <!-- Your app title -->
     <title>My App</title>
     <!-- Path to Framework7 Library CSS, Material Theme -->
-    <link rel="stylesheet" href="css/framework7.material.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
     <!-- Path to Framework7 color related styles, Material Theme -->
-    <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
     <!-- Path to your f7 icons-->
     <link rel="stylesheet" href="css/framework7-icons.css">
     <!-- Path to your custom app styles-->
@@ -73,7 +73,7 @@
                 </div>
                 <!-- loading vakken -->
                 <div class="page cached layout-dark" data-page="Vakken">
-                    <div class="navbar color-black">
+                    <div class="navbar">
                         <div class="navbar-inner">
                             <div class="center">Course</div>
                             <div class="right">
@@ -82,8 +82,7 @@
                         
                     </div>
                 </div>
-                <!-- Search Bar -->
-                <!-- Search Bar overlay -->
+               
                 <div class="page-content vakkenContent">
                     <h1 id="invoer"></h1>
                     <h2 id="invoer"></h2>
@@ -113,20 +112,12 @@
                         </div>
                     </div>
                     <!-- Search Bar -->
-                    <form data-search-list=".list-block-search" data-search-in=".item-title" class="searchbar searchbar-init">
-                        <div class="searchbar-input">
-                            <input type="search" placeholder="Search">
-                            <a href="#" class="searchbar-clear"></a>
-                        </div><a href="#" class="searchbar-cancel">Cancel</a> </form>
-                    <!-- Search Bar overlay -->
-                    <div class="searchbar-overlay"></div>
-                    <div class="page-content">
-                        <div class="content-block searchbar-not-found">
-                            <div class="content-block-inner">Nothing found</div>
-                        </div>
-                        <div class="list-block list-block-search searchbar-found">
+                    
+                        <div class="list-block">
+                            </br>
+                    </br>
                             <ul>
-                                <li class="df1"> </li>
+                                <li class="df1 list-block-search searchbar-found"> </li>
                                 <li class="df2"> </li>
                                 <li class="df3"> </li>
                             </ul>

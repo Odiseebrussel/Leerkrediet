@@ -1,11 +1,53 @@
 {
     "Bedrijfskunde": {
-        "ToegepasteInformatica": 
+        "Toegepaste Informatica": 
             {
                 "Duties": 
                     {
                         "fase 1": [
                             {
+                                "COURSE_ID": "HBI09B"
+                                , "COURSE": "ICT Organisation 1"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Beide semester"
+                             }
+                            , {
+                                "COURSE_ID": "HBI61B"
+                                , "COURSE": "Information management 1"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Eerste semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI59B"
+                                , "COURSE": "Communicatietraining 1"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Beide semester"
+                             }
+                            , {
+                                "COURSE_ID": "HBI10B"
+                                , "COURSE": "ICT Organisation 2"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Tweede semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI62B"
+                                , "COURSE": "Information management 2"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Tweede semester"
+                             }
+                            , {
+                                "COURSE_ID": "HBI60B"
+                                , "COURSE": "Communicatietraining 2"
+                                , "CREDITS": 4
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
+                                "COURSE_ID": "HBI77B"
+                                , "COURSE": "Software engineering 1"
+                                , "CREDITS": 3
+                                , "SEMESTER": "Beide semester"
+                        }
+                            ,{
                                 "COURSE_ID": "HBI65B"
                                 , "COURSE": "Application development 1"
                                 , "CREDITS": 4
@@ -89,12 +131,6 @@
                                 , "SEMESTER": "Eerste semester"
                         }
                             , {
-                                "COURSE_ID": "HBI69B"
-                                , "COURSE": "Information management 3"
-                                , "CREDITS": 3
-                                , "SEMESTER": "Eerste semester"
-                        }
-                            , {
                                 "COURSE_ID": "OH4100"
                                 , "COURSE": "Communicatietraining 3"
                                 , "CREDITS": 6
@@ -161,13 +197,13 @@
                         "fase 3": [
                             {
                                 "COURSE_ID": "HBI12C"
-                                , "COURSE": "ICT Organisation 5: Creative Entrepreneurship"
+                                , "COURSE": "ICT 5: Creative Entrepreneurship"
                                 , "CREDITS": 3
                                 , "SEMESTER": "Beide semester"
                         }
                             , {
                                 "COURSE_ID": "HBI04C"
-                                , "COURSE": "Information Management 5 - Big Data"
+                                , "COURSE": "IM 5 - Big Data"
                                 , "CREDITS": 3
                                 , "SEMESTER": "Beide semester"
                         }
@@ -325,6 +361,7 @@
 , 
     "Options": 
         {
+            "fase 3" : {
             "Option 1A : Intership mobility in Flanders" : {
                                 "COURSE_ID": "HBI89B"
                                 , "COURSE": "Stagemobiliteit in Vlaanderen"
@@ -376,7 +413,7 @@
                                 , "CREDITS": 24
                                 , "SEMESTER": "Tweede semester"
                         }
-        }
+        }}
                 
 }
 }
