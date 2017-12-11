@@ -31,7 +31,7 @@
                     <div class="page-content logincontent login-screen-content color-white">
                         <div class="login-screen-title">Login</div>
                         <div class="item-media" id="loginlogo"><i class="icon f7-icons size-50">person</i></div>
-                        <form>
+                        <form method="post" action="#" id="loginform">
                             <div class="list-block loginUP">
                                 <ul>
                                     <li class="item-content">
@@ -39,7 +39,7 @@
                                         <div class="item-inner">
                                             <!-- <div class="item-title label">Username</div> -->
                                             <div class="item-input">
-                                                <input type="text" name="username" placeholder="Your R-number" style="color:white"> </div>
+                                                <input id="username" type="text" name="username" placeholder="Your R-number" style="color:white"> </div>
                                         </div>
                                     </li>
                                     <li class="item-content">
@@ -47,14 +47,14 @@
                                         <div class="item-inner">
                                             <!---<div class="item-title label">Password</div> -->
                                             <div class="item-input ">
-                                                <input type="password" name="password" placeholder="Your password" style="color:white"> </div>
+                                                <input id="password" type="password" name="password" placeholder="Your password" style="color:white"> </div>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                             <div class="list-block signin">
                                 <ul>
-                                    <li><a href="#" class="item-link list-button open-indicator color-white btn">Sign In</a></li>
+                                    <li><a href="#" class="item-link list-button open-indicator color-white btn" id="loginBtn">Sign In</a></li>
                                 </ul>
                                 <div class="list-block-label">
                                     <p>If you don't have a schoolaccount or problem with your schoolaccount please contact <a href="https://www.kuleuven.be/studentenadministratie" class="close-login-screen">student administration</a>.</p>
