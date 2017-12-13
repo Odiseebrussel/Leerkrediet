@@ -8,7 +8,7 @@
     -moz-filter: blur(13px);
     -o-filter: blur(13px);
     -ms-filter: blur(13px);
-    filter: blur(13px);
+    filter: blur(0px);
     position: absolute;
     left: 0;
     top: 0;
@@ -127,18 +127,18 @@
     position: absolute;
     margin: 0 auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .circle {
     margin: 10px 10px 10px 10px;
-    
+    box-shadow: 0 8px 6px -6px black;
 }
 
 .vakkenContent {
     position: absolute;
     margin: 0 auto;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #invoer {
@@ -219,7 +219,39 @@
     padding-bottom: 20px;
 }
 
-.navbar {
-    background-color: #212121;
-    color: white;
+
+
+.logoschool {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    position: fixed;
+    
 }
+
+.logoschool img{
+    box-shadow: 0 8px 6px -6px black;
+    
+}
+
+.Versturen {
+text-align: center;
+    position: relative;
+    top: 50px;
+
+}
+.Versturen p a{
+   background-color: rgba(0, 0, 0, 0.47);
+    width: 40%;
+    margin: 0 auto;
+    box-shadow: 0 8px 6px -6px black;
+    border: 0.5px solid;
+}
+
+.Versturen p a:hover{
+background-color: white;
+    color: black;
+    
+}
+
